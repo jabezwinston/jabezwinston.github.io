@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Jabez Winston's Resumé</title>
+
+</head>
+
+<body>
+
+<h1>Jabez Winston</h1>
+<a href="mailto:jabezwinston@gmail.com"><tt>jabezwinston@gmail.com</tt></a><br>
+<a href="https://www.linkedin.com/in/jabezwinston/"><tt>linkedin.com/in/jabezwinston/</tt></a><br>
+<a href="https://www.quora.com/profile/Jabez-Winston"><tt>quora.com/profile/Jabez-Winston</tt></a><br>
+<a href="https://github.com/jabezwinston"><tt>github.com/jabezwinston</tt></a><br>
+
+<h2>Summary</h2>
+<ul>
+    <li>Strong conceptual knowledge in variety of domains - <b>embedded software, networking, operating systems, toolchains, build systems, version control</b> with practical exposure.</li>
+    <li>In-depth understanding in relating <b>assembly language, C language, compilers</b> with <b>microprocessor and microcontroller architectures</b>.</li>
+    <li>Good system administration skills (Installation of various OS, choosing right version of software, configuring proxies, networking, scripting, etc.,)</li>
+    <li><b>Big advocate for promoting and using open source software in workplace !</b></li>
+    <li>Expertise : USB firmware, Evaluation board software, Bootloaders, Marketing software for semiconductor chips & ICs etc.,</li>
+</ul>
+
+<h2><a name="experience">Experience</a></h2>
+
+<h3><a name="Logitech">Logitech Engineering and Designs India Private Ltd., Chennai</a></h3>
+
+<ul>
+<li>
+<b>Firmware Engineer II</b><br>
+July 2021 to present
+
+    <p> Project : <b>Computer Peripherals & Gaming</b> (Keyboard & Mice)
+    <ul>
+        <li>Tool development for exploration of <a href="https://www.usb.org/sites/default/files/hut1_22.pdf">HID Usage Tables</a> with different OS (Windows, Linux macOS, iPadOS & ChromeOS)</li>
+        <li>Automation setup for testing stability of keyboard/mice BLE connection in ChromeOS</li>
+        <li>Bug fixes & improvements in wireless keyboard/mice firmware</li>
+    </ul>
+</p>
+</li>
+</ul>
+
+<h3><a name="RBEI">Robert Bosch Engineering and Business Solutions Private Ltd., Coimbatore</a></h3>
+
+<ul>
+<li>
+<b>Technical support engineer</b><br>
+December 2020 to June 2021
+
+<p>
+    Project : <b>Greenhills, MinGW, LLVM compiler technical support</b>
+    <ul>
+        <li>Assist developers on issues with compiler flags, build system, linker flags & linker scripts</li>
+        <li>Prepare custom compiler toolchain package based on automotive project requirements</li>
+    </ul>
+</p>
+</li>
+<li>
+<b>Embedded Software Developer</b><br>
+January 2018 to November 2020
+    <p>Project : <b>Application Board 2.0/3.0, Bosch Sensortec SDK (COINES) , etc.,</b></p>
+    <p>Did everything possible to make Bosch sensors easily accessible and usable by all !! 😃<br>
+    Worked at the HQ (<b>Bosch Sensortec GmbH, Reutlingen, Germany</b>) for 6 months.</p>
+    <p>Bosch sensors are feature rich and fairly complex. Using them requires carefully reading the 100-150 page datasheet. This is a challenge for sales and marketing to promote and sell Bosch sensors. Goal is to have an easy to use evaluation kit for Bosch sensors which is usable even by non-technical people. <b>Bosch Sensortec SDK (COINES)</b> and <b>Application Board 3.0</b> were the two projects I worked on with a small team of 4 people to achieve this larger organization goal.</p>
+    <p><b> Bosch Sensortec SDK (COINES)</b></p>
+
+    <p><a href="https://www.bosch-sensortec.com/software-tools/tools/coines"> Bosch Sensortec SDK a.k.a COINES</a> has everything needed to play and evaluate Bosch sensors. COINES works with the Bosch Sensortec’s official Application Board and sensor shuttle boards.</p>
+<ul>
+    <li>Ported COINES to Application Board 2.0 & 3.0</li>
+    <li>Tools and libraries</li>
+        <ul>
+        <li><b><a href="https://github.com/BoschSensortec/App20-Recovery-Mac/tree/master/app20-flash">app20-flash</a></b> - Command line tool for flashing APP2.0 Board</li>
+        <li><b><a href="https://pypi.org/project/coinespy/"> coinespy</a></b> - Python library for accessing APP2.0 and APP3.0 board</li>
+        </ul>
+    <li>Added Easy Bluetooth feature in COINES for use with APP3.0 Board (Using standard POSIX C functions like <b>fprintf</b>, etc.,) </li>
+    <li>Latest version of COINES with the above tools can be found in this <a href="https://www.bosch-sensortec.com/software-tools/tools/coines">link</a></li>
+    </ul>
+
+    <p><b> Application Board 3.0</b></p>
+    <a href="https://www.bosch-sensortec.com/software-tools/tools/application-board-3-0/">Application Board 3.0</a> is an open source, user friendly and compact development board tailored for evaluating <a href="https://www.bosch-sensortec.com/products/">sensors from Bosch Sensortec GmbH</a><br>.
+    <ul>
+    <li>Developed <a href="https://github.com/jabezwinston/COINES/tree/master/coines_api/mcu_app30/usb_dfu_bootloader">USB/BLE DFU Bootloader</a> compatible with <a href="http://dfu-util.sourceforge.net/">dfu-util</a></li>
+    <li>Developed minimal <a href="https://github.com/jabezwinston/COINES/tree/master/coines_api/mcu_app30/usb_mtp">USB MTP stack</a> from scratch and integrated with <a href="https://github.com/bnahill/FLogFS">FlogFS</a> ( A NAND Flash Filesystem )</li>
+    <li>Command line tools for Application Board 3.0</li>
+    <ul>
+        <li><b>app30-ble-dfu.py</b> - Mentored interns to write this tool for BLE FOTA</li>
+        <li><b>ble-nus-term.py</b> - Terminal program for use with Easy Bluetooth and many other command-line tools !</li>
+    </ul>
+    <li>Extensive work in making APP3.0 Board compatible with existing open source software and technologies like WebUSB, WebBluetooth, etc., </li>
+    <li>Application Board 3.0 is now available for sale in the below websites !😃
+    <ul>
+        <li><a href="https://www.mouser.in/ProductDetail/Bosch-Sensortec/Application-Board-30?qs=QNEnbhJQKva38VDiVm63cA%3D%3D">Mouser Electronics</li>
+        <li><a href="https://www.digikey.in/en/products/detail/bosch-sensortec/application-board-3-0/14617532">Digi-key Electronics</a></li>
+    </ul>
+    </ul>
+
+    <p><b> Sensor API development and example code </b></p>
+    <ul>
+        <li><a href="https://github.com/BoschSensortec/BMI08x-Sensor-API">BMI08x</a></li>
+        <li><a href="https://github.com/BoschSensortec/BMI090L-Sensor-API">BMI090L</a></li>
+    </ul>
+
+<br>
+<b>Voluntary activities</b>- <a href="https://community.bosch-sensortec.com/t5/user/viewprofilepage/user-id/1560">Answering queries in Bosch Sensortec Community</a>
+<br>
+<br>
+<b>Technologies/Tools</b> – ARM GCC, GNU Make, GNU Debugger, USB, BLE, libusb, Shell/Batch scripting , Git, dpkg, Qt5, Eclipse, Inno setup
+</li></ul>
+
+<ul>
+<li>
+<b>Software Engineer</b><br>
+<b>August 2017 to December 2017 - Blockchain PoC topics ( Technical support )</b>
+
+<ul>
+    <li>Technical support for team on Linux</li>
+    <li>In depth technical support for Virtualization and Networking</li>
+    <li>Scripting and Deployment of the Blockchain applications</li>
+</ul>
+    <p><b>Technologies/Tools</b> - Apache, HTTP(S), PHP, Bash, Python, VirtualBox, IP Networking, Docker, Git, SSH, AWS, Azure</p>
+</li>
+
+    <li>
+<b>Intern</b><br>
+        <b>Jan 2017 to May 2017 - Bosch Connected Devices and Solutions</b>
+
+<ul>
+    <li>Developed a virtual I2C slave device using Atmel SAM controller partially emulating acceleration sensor BMA280 </li>
+    <li>Developed a Python script which communicates acceleration sample values with virtual I2C slave faking acceleration sensor data sent to the I2C master </li>
+</ul>
+        <p><b>Technologies/Tools</b> - ARM GCC, GDB, Python, Eclipse, Arduino IDE, Arduino Internals, Subversion, BLE</p>
+</ul>
+
+<h2>Education</h2>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+</style>
+<table>
+  <tr>
+    <th>Year of Passing</th>
+    <th>Institution</th>
+    <th>Qualification</th>
+    <th>Percentage/CGPA</th>
+  </tr>
+  <tr>
+    <td><b>2017</b></td>
+    <td>PSG College of Technology</td>
+    <td>M.E Embedded & Real-Time Systems</td>
+    <td>8.49</td>
+  </tr>
+  <tr>
+    <td><b>2015</b></td>
+    <td>Sri Ramakrishna Institute of Technology</td>
+    <td>B.E Electrical & Electronics Engineering</td>
+    <td>8.02</td>
+  </tr>
+</table>
+
+<h2>Embedded Software and Hardware knowledge</h2>
+
+<ul>
+    <li><b>Compilers</b> - GCC Toolchain (x86_64,ARM,AVR and MSP430 ports) and other proprietary toolchains like armcc, GreenHills </li>
+    <li><b>Debugging tools</b> - GDB, PDB, Segger J-Link, ST-LINK/V2</li>
+    <li><b>Build systems</b> - GNU make (advanced user), CMake</li>
+    <li><b>Microcontrollers</b> - STM32, Tiva C, Atmel SAM, Nordic nRF52, EFM32, 8051, Atmel AVR, TI MSP430, Microchip PIC</li>
+    <li><b>IDEs</b> - Eclipse based IDEs, Keil μVision, Visual Studio, Atmel Studio, PyCharm, MPLABX, Arduino IDE</li>
+    <li><b>RTOS</b> - μC/OS-II , FreeRTOS</li>
+</ul>
+
+<h2>Computer Literacy</h2>
+
+<ul>
+    <li><b>Operating systems</b> - Microsoft Windows, Debian Linux and many other Linux distros. (<b>Linux user for the past 11 years</b>)</li>
+    <li><b>Virtualization</b> - QEMU, Oracle VM VirtualBox, VMware Workstation, Virtual PC.</li>
+    <li><b>Networking</b> - Port forwarding, NAT, IPv4, IPv6, UDP, TCP, DHCP, DNS</li>
+    <li><b>Dual-booting & Multi-booting</b> - Configuring OS bootloaders GRUB4DOS, syslinux, bootmgr, ntldr to multiboot Windows and Linux distributions.</li>
+    <li><b>Command line</b> - Windows command prompt, Linux terminal</li>
+    <li><b>Version control</b> - Git (<b>Advanced user</b>), SVN</li>
+</ul>
+
+
+<h2>Other personal details</h2>
+<table>
+    <tr>
+        <td><b>Date of Birth</b></td>
+        <td>30 March 1993</td>
+    </tr>
+    <tr>
+        <td><b>Languages known</b> </td>
+        <td> English, Tamil (Read, Write, Speak) <br></td>
+    </tr>
+    <tr>
+        <td><b>Nationality</b></td>
+        <td>Indian <br></td>
+    </tr>
+    <tr>
+        <td><b>GPG Key</b></td>
+        <td><a href="http://keys.gnupg.net/pks/lookup?op=get&search=0xA5E7E810CA679C21">4702 BA69 863D 23A0 2137 383A A5E7 E810 CA67 9C21</a></td>
+    </tr>
+    <tr>
+        <td><b>Marital status</b></td>
+        <td>Married</td>
+    </tr>
+</table>
+</html>
