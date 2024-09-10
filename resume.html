@@ -28,13 +28,40 @@
 <ul>
 <li>
 <b>Firmware Engineer II</b><br>
-July 2021 to present
+July 2021 to July 2024
 
-    <p> Project : <b>Computer Peripherals & Gaming</b> (Keyboard & Mice)
+<p><b>Computer Peripherals & Gaming division</b> (Keyboard & Mice)
+    <ul>
+    <b> BLE mouse firmware development for Telink MCU</b><br>
+    <ul>
+        <li>Initial firmware development for BLE mouse using <a href="https://github.com/telink-semi/telink_b80_ble_single_connection_sdk">Telink B80 BLE SDK</a></li>
+            <ul>
+                <li>Add BLE services & characteristics as per Logitech's needs</li>
+                <li>Modified HID report descriptor</li>
+            </ul>
+        <li>Ported the Eclipse C project to use Makefile</li>
+        <li>Added Logitech Bolt dongle support</li>
+        <li>Created a mock Telink SDK to run BLE mouse firmware on PC for easy debugging & testing</li>
+            <ul>
+                <li>Used BLE HCI commands</li>
+                <li>Used a file to simulate flash memory for saving BLE bonding information</li>
+            </ul>
+        <li>Modified firmware to collect HCI logs without use of hardware sniffer</li>
+        <li>Integrated Github actions for automated build and testing (used <a href="https://github.com/google/bumble">bumble</a>)</li>
+    </ul>
+    <br><b> Bluetooth Taskforce Team</b>
+    <ul>
+        <li>Watchout for bugs in Bluetooth firmware of keyboards and mice</li>
+        <li>Check for compatibility with different OS (Windows, Linux, macOS, iPadOS & ChromeOS)</li>
+        <li>Check for possible bugs in Bluetooth drivers from vendors like Intel, Realtek, Broadcom, etc.,</li>
+        <li>Use Ellisys Bluetooth Explorer and HCI logs for debugging</li>
+    </ul>
+    <br><b> Maintainance activities</b>
     <ul>
         <li>Tool development for exploration of <a href="https://www.usb.org/sites/default/files/hut1_22.pdf">HID Usage Tables</a> with different OS (Windows, Linux macOS, iPadOS & ChromeOS)</li>
         <li>Automation setup for testing stability of keyboard/mice BLE connection in ChromeOS</li>
         <li>Bug fixes & improvements in wireless keyboard/mice firmware</li>
+    </ul>
     </ul>
 </p>
 </li>
